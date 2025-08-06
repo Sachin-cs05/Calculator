@@ -18,6 +18,7 @@ class Calculator{
     public Double div(){
         if(num2 == 0){
             System.out.println("num2 is not should be Zero");
+            break;
         }
         return num1/num2;
     }
